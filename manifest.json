@@ -2,13 +2,13 @@
     "name":"Bear Alert",
     "description":"This extension watches out for bears, alerts you, and also records the sitings so that you know which areas to avoid in the future.",
     "icons":{
-        "1600":"bear.png"
+        "1600":"./images/icons/bear.png"
     },
     "version":"1.0.1",
     "content_scripts":[
         {
             "matches":["<all_urls>"],
-            "js":["content.js"]
+            "js":["./js/content.js"]
         }
     ],
     "browser_action":{
@@ -16,7 +16,7 @@
 
     },
     "background":{
-        "scripts":["background.js"]
+        "scripts":["./js/background.js"]
     },
     "permissions":[
         "tabs"
