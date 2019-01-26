@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: grid;
+    background-image: url('../images/assets/bear-background.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #2f4f4f;
+    /* width: 100%; */
+}
+content{
+    height: 100px;
+}
+h1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .40);
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding-top: 3em;
+    width: 100%;
+    z-index: -1;
+    
+}
+#howManyBears{
+    position: relative;
+}
+.fas{
+    color: white;
+    font-size: 2em;
+    padding: .2em;
+}
+#content{
+    margin-top: 400px;
+}
+#content div{
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: .2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, .5);
+    color: black;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+#content div:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, .70);
+    font-size: 2em;
+}
